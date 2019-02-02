@@ -1,0 +1,108 @@
+.title {
+  outline-style: solid;
+  width: 300px;
+  text-align: center;
+
+}
+
+.news {
+  border: solid;
+}
+
+.nav-align {
+  float: right;
+}
+
+.nav-back {
+  background-color: #3957FF;
+}
+
+.nav-center {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.home-head {
+  text-align: center;
+  text-shadow: 3px 1px #999;
+}
+
+.top {
+  width: 50%;
+  padding: 20px;
+  border-top: solid;
+  border-right: solid;
+  border-left: solid;
+  border-color: #111;
+}
+
+.bottom {
+  width: 50%;
+  padding: 20px;
+  border-right: solid;
+  border-left: solid;
+  border-bottom: solid;
+  border-color: #111;
+}
+
+.home-image {
+  width: 50%;
+  padding: 20px;
+  border-right: solid;
+  border-left: solid;
+  border-color: #111;
+}
+
+.portfolio-image {
+  width: 100%;
+  padding: 15px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #212529;
+}
+
+.portfolio-title {
+  text-align: center;
+}
+
+.reviews-title {
+  text-align: center;
+  padding: 5px;
+}
+
+p {
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  text-align: left;
+  padding: 0px;
+}
+
+.about-pic {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  border: solid;
+  border-width: 12px;
+}
+
+.break {
+  border: 3px solid #555;
+}
