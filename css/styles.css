@@ -1,3 +1,45 @@
+header {
+    text-align: center;
+    font-style: oblique;
+    background-color: #44f;
+    color: #bbb;
+    font-size: 70px;
+    padding: 10px;
+}
+
+.row {
+  display: flex;
+  border: solid;
+  border-top: none;
+  width: 40%;
+  margin-left: 30%;
+  float: center;
+}
+
+.r-head {
+  display: flex;
+  border: solid;
+  width: 40%;
+  margin-left: 30%;
+  float: center;
+  background-color: #777;
+}
+
+.column {
+  text-align: center;
+  float: center;
+  flex: 50%;
+}
+
+.c-head {
+  text-align: center;
+  float: center;
+  flex: 50%;
+}
+
+.c-won {
+  background-color: #FFE130;
+}
 .title {
   outline-style: solid;
   width: 300px;
@@ -27,6 +69,15 @@
   margin-right: auto;
 }
 
+form {
+  padding: 5px;
+}
+
+.form-center {
+  display: block;
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -39,6 +90,13 @@
 .home-head {
   text-align: center;
   text-shadow: 3px 1px #999;
+}
+
+.home-sub {
+  font-size: 23px;
+  text-align: center;
+  text-shadow: 1px 1px #999;
+  padding: none;
 }
 
 .top {
@@ -82,11 +140,6 @@
 .reviews-title {
   text-align: center;
   padding: 5px;
-}
-
-p {
-  text-align: center;
-  padding: 30px;
 }
 
 footer p {
